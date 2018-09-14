@@ -16,6 +16,7 @@ module RecurringSelect
       else
         app.middleware.use RecurringSelectMiddleware # insert_after ActionDispatch::ParamsParser,
       end
+      puts app.config.middleware.middlewares
     end
   end
 end
