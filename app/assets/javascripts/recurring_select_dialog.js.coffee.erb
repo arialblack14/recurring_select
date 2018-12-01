@@ -77,29 +77,29 @@ $.fn.recurring_select.options = {
 }
 
 $.fn.recurring_select.texts = {
-  locale_iso_code: "en"
-  repeat: "Repeat"
-  last_day: "Last Day"
-  frequency: "Frequency"
-  daily: "Daily"
-  weekly: "Weekly"
-  monthly: "Monthly"
-  yearly: "Yearly"
-  every: "Every"
-  days: "day(s)"
-  weeks_on: "week(s) on"
-  months: "month(s)"
-  years: "year(s)"
-  day_of_month: "Day of month"
-  day_of_week: "Day of week"
-  cancel: "Cancel"
-  ok: "OK"
-  summary: "Summary"
-  first_day_of_week: 0
-  days_first_letter: ["S", "M", "T", "W", "T", "F", "S" ]
-  order: ["1st", "2nd", "3rd", "4th", "5th", "Last"]
+  locale_iso_code: "en",
+  repeat: "Ripeti",
+  frequency: "Frequenza",
+  daily: "Giornaliero",
+  weekly: "Settimanale",
+  monthly: "Mensile",
+  yearly: "Annuale",
+  every: "Ogni",
+  days: "giorni",
+  weeks_on: "settimane",
+  months: "mesi",
+  years: "anni",
+  first_day_of_week: 1,
+  day_of_month: "Giorno del mese",
+  day_of_week: "Giorno della settimana",
+  cancel: "Annulla",
+  ok: "OK",
+  summary: "In sintesi",
+  first_day_of_week: 1,
+  days_first_letter: ["D", "L", "M", "M", "G", "V", "S" ],
+  order: ["1", "2", "3", "4", "5", "Ultimo"],
   show_week: [true, true, true, true, false, false]
-}
+};
 
 window.RecurringSelectDialog =
   class RecurringSelectDialog
